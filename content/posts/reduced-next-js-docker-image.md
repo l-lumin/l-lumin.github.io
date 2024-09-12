@@ -1,7 +1,7 @@
 +++
 title = 'Reduced Next Js Docker Image'
 date = 2024-09-10T12:00:00+09:00
-draft = true
+draft = false
 +++
 
 Recently, I noticed that the Docker image size for my Next.js project was quite large. So I decided to do some research and found ways to reduce the image size.
