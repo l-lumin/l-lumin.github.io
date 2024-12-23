@@ -1,6 +1,7 @@
 +++
 title = 'Migrating My CLI APP BulkPR to a Github CLI Extension'
 date = 2024-12-24T12:00:00+09:00
+publishdate = 2024-12-23T12:00:00+09:00
 draft = false
 +++
 

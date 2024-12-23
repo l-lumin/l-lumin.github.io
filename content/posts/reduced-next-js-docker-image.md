@@ -1,6 +1,7 @@
 +++
 title = 'Reduced Next Js Docker Image'
 date = 2024-09-10T12:00:00+09:00
+publishdate = 2024-09-10T12:00:00+09:00
 draft = false
 +++
 
