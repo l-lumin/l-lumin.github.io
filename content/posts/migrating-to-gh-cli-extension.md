@@ -56,11 +56,11 @@ Then it hit me: if my tool already use `gh auth`, why not make it a part of the 
 
 The migration process turned out to be surprisingly straightforward.
 
-1. **Renaming the Project**
+1. **Renaming the Project**  
    Since GitHub CLI extensions need to start with `gh-`, I renamed my project from **bulkpr** to **gh-bulkpr**.
-2. Setting Up the Extension
+2. **Setting Up the Extension**  
    Next, I created the executable for my app and added it as a GitHub CLI extension using the `gh extension add .` command.
-3. Testing and Deploying
+3. **Testing and Deploying**  
    After making suer everything worked, I push it to GitHub. Then, I set up a workflow to automatically distribute the app.
 
 ```yml
@@ -86,7 +86,7 @@ jobs:
           go_version_file: go.mod
 ```
 
-4. Distribution Made Easy
+4. **Distribution Made Easy**  
    Now, any of my colleagues can easily install the app
 
 ```sh
